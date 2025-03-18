@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C1AD08D0-440D-4DA9-9032-DCFAB4874BF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{161AB26A-61B2-423D-A564-C1F405D713A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Optivem.Kata.Calculator.Core", "src\Optivem.Kata.Calculator\Optivem.Kata.Calculator.Core.csproj", "{FD652A0B-97AA-4E85-918A-662E822036D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Optivem.Kata.Calculator.Test", "test\Optivem.Kata.Calculator.Test\Optivem.Kata.Calculator.Test.csproj", "{C0F413AB-FCAB-49B0-A831-FD4F11B744FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76C25C36-63CD-482A-863E-FDA49F137AD8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{0485AFA8-ADD4-478E-B8FD-D18F11F66E84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{6EA334C7-7830-4A88-B8F1-D8FC80CD4C51}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\ci.yaml = .github\workflows\ci.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD652A0B-97AA-4E85-918A-662E822036D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD652A0B-97AA-4E85-918A-662E822036D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD652A0B-97AA-4E85-918A-662E822036D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD652A0B-97AA-4E85-918A-662E822036D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F413AB-FCAB-49B0-A831-FD4F11B744FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F413AB-FCAB-49B0-A831-FD4F11B744FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F413AB-FCAB-49B0-A831-FD4F11B744FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F413AB-FCAB-49B0-A831-FD4F11B744FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD652A0B-97AA-4E85-918A-662E822036D1} = {C1AD08D0-440D-4DA9-9032-DCFAB4874BF9}
+		{C0F413AB-FCAB-49B0-A831-FD4F11B744FF} = {161AB26A-61B2-423D-A564-C1F405D713A2}
+		{0485AFA8-ADD4-478E-B8FD-D18F11F66E84} = {76C25C36-63CD-482A-863E-FDA49F137AD8}
+		{6EA334C7-7830-4A88-B8F1-D8FC80CD4C51} = {0485AFA8-ADD4-478E-B8FD-D18F11F66E84}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A670F7E-010B-4804-B197-266D412223D9}
+	EndGlobalSection
+EndGlobal
